@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="11">
+  <test thread-count="5" name="Test(failed)" verbose="11">
+    <classes>
+      <class name="SeleniumTest.TakeScreenshotClass">
+        <methods>
+          <include name="TakeScreenshotMethod"/>
+          <include name="tearDown"/>
+          <include name="TakeScreenshotMethod1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SeleniumTest.TakeScreenshotClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
